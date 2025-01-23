@@ -5,6 +5,10 @@
   justify-content: center;
   align-items: center;
 
-  background: rgb(5, 22, 27);
-  background: linear-gradient(0deg, rgba(5, 22, 27, 1) 0%, rgba(14, 66, 98, 1) 100%);
+  background-image: linear-gradient(rgba(14, 66, 98, 0.9), rgba(5, 22, 27, 1)),
+    url("../src/imgs/13416.jpg");
+  inline-size: 100%;
+  background-size: cover;
+  background-position: center;
+
 }

@@ -49,7 +49,7 @@ function PasswordGenerator() {
             onChange={(e) => setLength(e.target.value)}
           />
         </label>
-        <label>
+        <label className="checkbox">
           <input
             type="checkbox"
             checked={includeUppercase}
@@ -57,7 +57,7 @@ function PasswordGenerator() {
           />
           Incluir Letras Maiúsculas
         </label>
-        <label>
+        <label className="checkbox">
           <input
             type="checkbox"
             checked={includeLowercase}
@@ -65,7 +65,7 @@ function PasswordGenerator() {
           />
           Incluir Letras Minúsculas
         </label>
-        <label>
+        <label className="checkbox">
           <input
             type="checkbox"
             checked={includeNumbers}
@@ -73,7 +73,7 @@ function PasswordGenerator() {
           />
           Incluir Números
         </label>
-        <label>
+        <label className="checkbox">
           <input
             type="checkbox"
             checked={includeSymbols}
@@ -86,6 +86,16 @@ function PasswordGenerator() {
       <div className="output">
         <h3>Senha Gerada:</h3>
         <p>{password}</p>
+        {/* <button
+          className="copy-button"
+          onClick={() => {
+            navigator.clipboard.writeText(password);
+            // Opcional: Você pode adicionar um feedback visual aqui
+            alert("Senha copiada!");
+          }}
+        >
+          Copiar
+        </button> */}
       </div>
     </div>
   );
