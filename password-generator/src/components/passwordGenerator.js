@@ -3,10 +3,10 @@ import "../styles/passwordGenerator.css";
 
 function PasswordGenerator() {
   const [length, setLength] = useState(12);
-  const [includeUppercase, setIncludeUppercase] = useState(true);
-  const [includeLowercase, setIncludeLowercase] = useState(true);
-  const [includeNumbers, setIncludeNumbers] = useState(true);
-  const [includeSymbols, setIncludeSymbols] = useState(true);
+  const [includeUppercase, setIncludeUppercase] = useState(false);
+  const [includeLowercase, setIncludeLowercase] = useState(false);
+  const [includeNumbers, setIncludeNumbers] = useState(false);
+  const [includeSymbols, setIncludeSymbols] = useState(false);
   const [password, setPassword] = useState("");
 
   const generatePassword = () => {
@@ -85,7 +85,9 @@ function PasswordGenerator() {
       <button onClick={generatePassword}>Gerar Senha</button>
       <div className="output">
         <h3>Senha Gerada:</h3>
-        <p>{password}</p>
+        <p className="passwordArea" data-testid="password-display">
+          {password}
+        </p>
         {/* <button
           className="copy-button"
           onClick={() => {
