@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/IOelinton.io/Gerador-de-senhas/static/css/main.0c0eda09.css",
-    "main.js": "/IOelinton.io/Gerador-de-senhas/static/js/main.0cf42755.js",
-    "static/js/488.daeb6f59.chunk.js": "/IOelinton.io/Gerador-de-senhas/static/js/488.daeb6f59.chunk.js",
-    "static/media/13416.jpg": "/IOelinton.io/Gerador-de-senhas/static/media/13416.bca6902da594a636c64c.jpg",
-    "index.html": "/IOelinton.io/Gerador-de-senhas/index.html",
-    "main.0c0eda09.css.map": "/IOelinton.io/Gerador-de-senhas/static/css/main.0c0eda09.css.map",
-    "main.0cf42755.js.map": "/IOelinton.io/Gerador-de-senhas/static/js/main.0cf42755.js.map",
-    "488.daeb6f59.chunk.js.map": "/IOelinton.io/Gerador-de-senhas/static/js/488.daeb6f59.chunk.js.map"
+    "main.css": "/Gerador-de-senhas/static/css/main.824c29aa.css",
+    "main.js": "/Gerador-de-senhas/static/js/main.c07cec12.js",
+    "static/js/488.daeb6f59.chunk.js": "/Gerador-de-senhas/static/js/488.daeb6f59.chunk.js",
+    "static/media/13416.jpg": "/Gerador-de-senhas/static/media/13416.bca6902da594a636c64c.jpg",
+    "index.html": "/Gerador-de-senhas/index.html",
+    "main.824c29aa.css.map": "/Gerador-de-senhas/static/css/main.824c29aa.css.map",
+    "main.c07cec12.js.map": "/Gerador-de-senhas/static/js/main.c07cec12.js.map",
+    "488.daeb6f59.chunk.js.map": "/Gerador-de-senhas/static/js/488.daeb6f59.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c0eda09.css",
-    "static/js/main.0cf42755.js"
+    "static/css/main.824c29aa.css",
+    "static/js/main.c07cec12.js"
   ]
 }
