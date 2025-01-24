@@ -2,7 +2,7 @@
   "name": "password-generator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/IOelinton.io/Gerador-de-senhas",
+  "homepage": "https://IOelinton.github.io/Gerador-de-senhas",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
